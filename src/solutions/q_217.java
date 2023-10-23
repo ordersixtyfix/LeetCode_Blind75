@@ -17,20 +17,8 @@ public class q_217 {
         return false;
 
     }
-
-
-
-
-
-
-
-
-
-
-
     public static void main(String[] args) {
         boolean exist = containsDuplicate(new int[]{7,6,4,3,1});
-        System.out.println(exist);
-
+        System.out.print(exist);
     }
 }
