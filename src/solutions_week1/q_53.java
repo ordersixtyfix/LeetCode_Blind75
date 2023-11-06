@@ -26,7 +26,6 @@ public class q_53 {
 
 
     }
-
     public static void main(String[] args) {
 
         System.out.println(maxSubArray(new int[]{5,4,-10,7,8}));
