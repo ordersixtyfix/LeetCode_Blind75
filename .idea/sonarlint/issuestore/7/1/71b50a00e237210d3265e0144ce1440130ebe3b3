@@ -1,0 +1,13 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ŒÌ8ßï‰º1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òˆ«•ûÿÿÿÿ8àï‰º1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æûıÿÿÿÿ8àï‰º1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·¥¾şÿÿÿÿ8àï‰º1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍŸì—8àï‰º1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ”ÿÀ8àï‰º1
+i	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(á¹È¶8áï‰º1
+c
+java:S1854"ARemove this useless assignment to local variable "current_begin".(Æûıÿÿÿÿ8üï‰º1
+T
+java:S1481"2Remove this unused "current_begin" local variable.(Æûıÿÿÿÿ8€ï‰º1
+U	java:S106,"9Replace this use of System.out or System.err by a logger.(‚½éı8‚ï‰º1

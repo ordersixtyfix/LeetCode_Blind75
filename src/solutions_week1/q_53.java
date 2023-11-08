@@ -1,4 +1,4 @@
-package solutions;
+package solutions_week1;
 
 
 import static java.lang.Math.max;

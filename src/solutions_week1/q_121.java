@@ -1,4 +1,4 @@
-    package solutions;
+    package solutions_week1;
     public class q_121 {
 
         public static int maxProfit(int[] prices) {

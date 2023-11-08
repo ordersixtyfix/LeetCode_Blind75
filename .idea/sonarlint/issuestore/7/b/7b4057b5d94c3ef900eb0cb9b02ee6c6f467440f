@@ -1,0 +1,5 @@
+
+y
+java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "integerList".(Á˜àó
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÓÝ¹à
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ
