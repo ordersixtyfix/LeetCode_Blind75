@@ -1,26 +1,32 @@
 package solutions_week2;
 
+import static java.lang.Math.min;
+
 public class q_153 {
     public static int findMin(int[] nums) {
-        if (nums == null || nums.length == 0) {
-            throw new IllegalArgumentException("Invalid entry");
-        }
+        int result =nums[0];
         int left = 0;
-        int right = nums.length - 1;
-
-        while (left < right) {
-            int mid = left + (right - left) / 2;
+        int right = nums.length -1;
 
 
-            if (nums[mid] > nums[right]) {
-                left = mid + 1;
-            } else {
-                right = mid;
+        while(left<=right){
+            if(nums[left]< nums[right]){
+                result = min(nums[left],result);
+                break;
+            }
+            int middle = (left+right)/2;
+            result = min(result,nums[middle]);
+            if(nums[middle]>=nums[left]){
+                left = middle +1;
+            }
+            else{
+                right = middle -1;
             }
         }
 
 
-        return nums[left];
+
+        return result;
     }
 
     public static void main(String[] args) {
