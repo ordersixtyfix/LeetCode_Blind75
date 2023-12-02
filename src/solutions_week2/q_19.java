@@ -12,7 +12,9 @@ public class q_19 {
 
     public static ListNode removeNthFromEnd(ListNode head, int n) {
 
-        ListNode temp = head;
+        ListNode start = new ListNode();
+        start.next = head;
+        ListNode temp = start;
         int length=0;
         int count=1;
 
@@ -23,14 +25,15 @@ public class q_19 {
         }
 
         while(temp!=null){
-            if(count==length-n){
+            if(count==length-n+1){
                 temp.next=temp.next.next;
+                break;
             }
             temp = temp.next;
             count++;
         }
 
-        return temp;
+        return start.next;
 
     }
     public static void main(String[] args) {
