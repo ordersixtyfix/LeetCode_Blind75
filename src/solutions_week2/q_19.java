@@ -23,7 +23,6 @@ public class q_19 {
             head = head.next;
 
         }
-
         while(temp!=null){
             if(count==length-n+1){
                 temp.next=temp.next.next;
