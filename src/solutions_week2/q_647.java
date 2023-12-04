@@ -24,8 +24,12 @@ public class q_647 {
 
 
     public static void main(String[] args){
+        String s = "aaaabbbbbrrrjoa";
 
-        System.out.println(countSubstrings("aaaabbbbbrrrjoj"));
+        System.out.println(countSubstrings("aaaaabbbbbrrrjoa"));
+
+
+        //System.out.println(s.charAt(-1));
 
     }
 
